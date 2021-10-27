@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="degisik ozelliklerde testler calistirma">
+    
+    <test name="farkli cinsler testler">
+        
+   <packages>
+       <package name="tests.smokeTest"></package>
+   </packages>
+    <classes>
+        <class name="tests.day13_POM"></class>
+    </classes>
+    </test>
+</suite>
